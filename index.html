@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Brand | Главная</title>
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/slyles.css">
 </head>
@@ -12,16 +13,16 @@
     <header class="header">
         <div class="container header-flex">
             <div class="header-left">
-                <a class="logo" href="#"><img src="img/logo-img.png" alt="logo">BRAN<span>D</span></a>
+                <a class="logo" href="#"><img class="logo-img" src="img/logo-img.png" alt="logo">BRAN<span class="logo-d">D</span></a>
                 <form class="form" action="#">
-                    <div>Browse</div>
-                    <input type="text">
-                    <button type="submit">0</button>
+                    <div class="browse">Browse <i class="fa fa-caret-down" aria-hidden="true"></i></div>
+                    <input class="text-search" type="text" placeholder="Search for Item...">
+                    <button class="button-search" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
                 </form>
             </div>
             <div class="header-right">
-                <img src="img/cart.svg" alt="cart">
-                <a href="#" class="button">My Account</a>
+                <img class="basket-img" src="img/cart.svg" alt="cart">
+                <a href="#" class="button">My Account <i class="fa fa-caret-down" aria-hidden="true"></i></a>
             </div>
         </div>
     </header>
