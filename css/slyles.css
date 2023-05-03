@@ -116,3 +116,119 @@ body {
     font-size: 15px;
     font-weight: 400;
 }
+
+.navigations {
+    background-color: #fff;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.menu-link {
+    display: block;
+    padding: 20px 15px;
+    color: #222;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-bottom: 3px solid transparent;
+    transition: all .5s;
+}
+
+.menu-link:hover {
+    border-bottom: 3px solid #f16d7f;
+    transition: all .5s;
+}
+
+.banner {
+    background-color: #e8e8e8;
+    height: 613px;
+}
+
+.banner-img {
+    background-image: url(../img/banner.jpg);
+    height: 100%;
+    background-position: 0 -51px;
+}
+
+.banner-text {
+    color: #222;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 224px;
+    float: left;
+    border-left: 12px solid #f16d7f;
+    padding-left: 12px;
+}
+
+.big-banner-text,
+.small-banner-text {
+    margin: 0;
+}
+
+.big-banner-text {
+    color: #222;
+    font-size: 60px;
+    line-height: 41px;
+}
+
+.small-banner-text {
+    color: #222;
+    font-size: 40px;
+    line-height: 32px;
+    margin-top: 20px;
+}
+
+.pink {
+    color: #f16d7f;
+}
+
+.category {
+    margin-top: 98px;
+}
+
+.flex-category {
+    display: flex;
+    justify-content: space-between;
+}
+
+.block-category {
+    width: 560px;
+}
+
+.block-category-one {
+    background-image: url(../img/back_for_man.jpg);
+    margin-bottom: 20px;
+}
+
+.block-category-two {
+    background-image: url(../img/accesories.jpg);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-color: #dadad2;
+}
+
+.block-category-three {
+    background-image: url(../img/back_for_woman.jpg);
+    margin-bottom: 20px;
+}
+
+.block-category-four {
+    background-image: url(../img/back_for_kids.jpg);
+}
+
+.block-category-one,
+.block-category-four {
+    height: 542px;
+}
+
+.block-category-two,
+.block-category-three {
+    height: 261px;
+}
